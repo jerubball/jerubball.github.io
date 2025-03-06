@@ -56,9 +56,9 @@ minima:
   # * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
   # * url      Full URL of social profile.
   social_links:
-    - title: Main Page
+    - title: Main Homepage
       icon: >
-        globe fa-solid fa-lg" style="font-family: \"Font Awesome 6 Free\"" data-class="
+        globe fa-solid fa-lg" style="font-family: &quot;Font Awesome 6 Free&quot;" data-class="
       url: "https://hasol.co"
     - title: GitHub Profile
       icon: github
