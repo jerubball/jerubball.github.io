@@ -57,11 +57,14 @@ minima:
   # * url      Full URL of social profile.
   social_links:
     - title: Main Page
-      icon: globe
+      icon: globe fa-solid
       url: "https://hasol.co"
     - title: GitHub Profile
       icon: github
       url: "https://github.com/jerubball"
+    - title: LinkedIn Profile
+      icon: linkedin-in
+      url: "https://www.linkedin.com/in/hasol-im/"
   #  - title: Jekyll at X (formerly Twitter)
   #    icon: x-twitter
   #    url: "https://x.com/jekyllrb"
