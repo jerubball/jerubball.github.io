@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Linkx
+title: Links
 permalink: /links/
 ---
 
