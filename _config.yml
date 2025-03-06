@@ -1,3 +1,5 @@
+# Visit https://jekyllrb.com/docs/ for documentation.
+
 title: GitHub Pages Blog
 author:
   name: Hasol Im
@@ -13,14 +15,19 @@ description: >
 # If you clone the Minima repo and build locally, use this setting.
 #theme: minima
 
-# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
-# If you want to use the latest Minima version on GitHub Pages, use the following setting and 
+# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/).
+# If you want to use the latest Minima version on GitHub Pages, use the following setting and
 # add a line comment on "theme: minima" above.
+# https://github.com/jekyll/minima/tree/master
 remote_theme: jekyll/minima
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Define how post's URL is generated.
+#permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink: /:year/:title:output_ext
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
@@ -40,8 +47,6 @@ minima:
   nav_pages:
     - about.md
     - links.md
-    - hasol.co.md
-    - nj.hasol.co.md
 
   # Set to `true` to show excerpts on the homepage.
   show_excerpts: false
