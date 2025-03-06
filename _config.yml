@@ -1,6 +1,6 @@
-title: pages.hasol.co - GitHub Pages Blog
+title: GitHub Pages Blog
 author:
-  name: HIM
+  name: Hasol Im
   email: contact@hasol.co
 
 # The `>` after `description:` means to ignore line-breaks until next key.
@@ -37,8 +37,11 @@ minima:
   # If you want to link only specific pages in the site-navigation, use this and list
   # the `path` property (as represented via Liquid) of the pages in the order they should
   # be rendered.
-  #nav_pages:
-  #  - about.md
+  nav_pages:
+    - about.md
+    - links.md
+    - hasol.co.md
+    - nj.hasol.co.md
 
   # Set to `true` to show excerpts on the homepage.
   show_excerpts: false
