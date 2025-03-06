@@ -57,7 +57,7 @@ minima:
   # * url      Full URL of social profile.
   social_links:
     - title: Main Page
-      icon: globe fa-solid
+      icon: globe fa-solid fa-lg" style="font-family: \"Font Awesome 6 Free\"" data-class="
       url: "https://hasol.co"
     - title: GitHub Profile
       icon: github
